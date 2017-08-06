@@ -8,8 +8,8 @@ This project applies basic machine learning concepts on data collected for housi
 * Split the data into testing and training subsets.
 * Determine a suitable performance metric for this problem.
 * Hyper-parameter Tuning:
- - Analyze performance graphs for a learning algorithm with varying parameters and training set sizes.
- - Pick the optimal model that best generalizes for unseen data. 
+  - Analyze performance graphs for a learning algorithm with varying parameters and training set sizes.
+  - Pick the optimal model that best generalizes for unseen data. 
 * Test the optimal model on a new sample and compare the predicted selling price to the statistics.
 
 
