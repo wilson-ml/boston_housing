@@ -1,46 +1,36 @@
-# Machine Learning Engineer Nanodegree
-# Model Evaluation and Validation
-## Project: Predicting Boston Housing Prices
+# Predicting Boston Housing Prices
+### Supervised Learning Project of Udacity Machine Learning Nanodegree Program
 
-### Install
+## Project Overview
 
-This project requires **Python 2.7**(if you complete this project in Python 3.x, you will have to update the code in various places including all relevant print statements) and the following Python libraries installed:
+This project applies basic machine learning concepts on data collected for housing prices in the Boston, Massachusetts area to predict the selling price of a new home. This project consists of the following tasks:
+* Explore the data to obtain important features and descriptive statistics about the dataset.
+* Split the data into testing and training subsets.
+* Determine a suitable performance metric for this problem.
+* Hyper-parameter Tuning:
+ - Analyze performance graphs for a learning algorithm with varying parameters and training set sizes.
+ - Pick the optimal model that best generalizes for unseen data. 
+* Test the optimal model on a new sample and compare the predicted selling price to the statistics.
 
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org/)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
 
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
+## Machine Learning Theory
 
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer.
+* Supervised learning using __decision trees__.
+* Analyze learning curve to decide whether a model suffers from overfit (high variance) or underfit (high bias).
+* Hyper-parameter tuning.
 
-### Code
 
-Template code is provided in the `boston_housing.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
+## Technical Skills
 
-### Run
+* __sklearn.tree.DecisionTreeRegressor__: decision tree for supervised learning.
+* __sklearn.model_selection.GridSearchCV__: automatic hyper-parameter tuning.
+* __sklearn.model_selection.ShuffleSplit__: split labeled data into training and validation sets.
+* __sklearn.metrics.r2_score__: evaluate goodness of fit.
+* __numpy__ and __pandas__: data wrangling.
 
-In a terminal or command window, navigate to the top-level project directory `boston_housing/` (that contains this README) and run one of the following commands:
 
-```bash
-ipython notebook boston_housing.ipynb
-```  
-or
-```bash
-jupyter notebook boston_housing.ipynb
-```
+## Development Environment
 
-This will open the Jupyter Notebook software and project file in your browser.
-
-### Data
-
-The modified Boston housing dataset consists of 489 data points, with each datapoint having 3 features. This dataset is a modified version of the Boston Housing dataset found on the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Housing).
-
-**Features**
-1.  `RM`: average number of rooms per dwelling
-2. `LSTAT`: percentage of population considered lower status
-3. `PTRATIO`: pupil-teacher ratio by town
-
-**Target Variable**
-4. `MEDV`: median value of owner-occupied homes
+* OpenSUSE Linux 42.2
+* Anaconda 4.4 with Python 2.7
+* pandas, numpy, sklearn
