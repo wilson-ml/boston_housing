@@ -2,6 +2,8 @@
 
 Supervised Learning Project of Udacity Machine Learning Engineer Nanodegree Program
 
+Built a model to predict the value of a given house in the Boston real estate market using decision tree. Identified the best price that a client can sell their house utilizing machine learning.
+
 
 ## Project Overview
 
