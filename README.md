@@ -26,11 +26,11 @@ This project applies basic machine learning concepts on data collected for housi
 
 ## Technical Skills
 
-* __sklearn.tree.DecisionTreeRegressor__: decision tree for supervised learning.
-* __sklearn.model_selection.GridSearchCV__: automatic hyper-parameter tuning.
-* __sklearn.model_selection.ShuffleSplit__: split labeled data into training and validation sets.
-* __sklearn.metrics.r2_score__: evaluate goodness of fit.
-* __numpy__ and __pandas__: data wrangling.
+* `sklearn.tree.DecisionTreeRegressor`: decision tree for supervised learning.
+* `sklearn.model_selection.GridSearchCV`: automatic hyper-parameter tuning.
+* `sklearn.model_selection.ShuffleSplit`: split labeled data into training and validation sets.
+* `sklearn.metrics.r2_score`: evaluate goodness of fit.
+* `numpy` and `pandas`: data wrangling.
 
 
 ## Development Environment
