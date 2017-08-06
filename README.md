@@ -1,6 +1,6 @@
 # Predicting Boston Housing Prices
 
-Supervised Learning Project of Udacity Machine Learning Nanodegree Program
+Supervised Learning Project of Udacity Machine Learning Engineer Nanodegree Program
 
 
 ## Project Overview
